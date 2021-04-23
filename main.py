@@ -1,8 +1,8 @@
 from telegram import *
 from telegram.ext import *
 
-bot = Bot('1643292967:AAG0BlDe8qrENSWL3_jh3DIRAf2rv2izb6k')
-update1 = Updater('1643292967:AAG0BlDe8qrENSWL3_jh3DIRAf2rv2izb6k', use_context=True)
+bot = Bot('BOT TOKEN HERE')
+update1 = Updater('BOT TOKEN HERE', use_context=True)
 dispatcher = update1.dispatcher
 
 def greet(update:Update, context:CallbackContext):
